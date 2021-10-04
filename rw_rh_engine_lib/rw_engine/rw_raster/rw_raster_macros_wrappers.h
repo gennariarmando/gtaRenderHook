@@ -1,8 +1,0 @@
-#pragma once
-#include "common_headers.h"
-
-namespace rh::rw::engine
-{
-#define RwRasterGetFormatMacro( _raster )                                      \
-    ( ( ( ( _raster )->cFormat ) & ( rwRASTERFORMATMASK >> 8u ) ) << 8u )
-} // namespace rh::rw::engine

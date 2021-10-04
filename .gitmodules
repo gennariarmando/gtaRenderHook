@@ -1,0 +1,6 @@
+[submodule "vendor/tinyxml2"]
+	path = vendor/tinyxml2
+	url = https://github.com/leethomason/tinyxml2
+[submodule "vendor/FastNoiseSIMD"]
+	path = vendor/FastNoiseSIMD
+	url = https://github.com/Auburn/FastNoiseSIMD
